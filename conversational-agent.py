@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = ChatGroq(model="llama3-8b-8192", verbose=True)
+llm = ChatGroq(model="llama-3.1-8b-instant", verbose=True)
 
 message_history = []
 message_history = message_history[-100:]
